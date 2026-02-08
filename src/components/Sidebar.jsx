@@ -1,4 +1,4 @@
-import { Bot, Edit2, MapPin, Settings, Activity, Thermometer, History, Target, Pause, Play, Square } from 'lucide-react'
+import { Edit2, MapPin, Settings, Activity, Thermometer, History, Target, Pause, Play, Square } from 'lucide-react'
 import './Sidebar.css'
 
 function Sidebar({
@@ -29,11 +29,7 @@ function Sidebar({
     <aside className="sidebar">
       {/* Logo */}
       <div className="logo">
-        <div className="logo-icon">
-          <Bot size={28} />
-        </div>
-        <span className="logo-text">Pyroscope</span>
-        <span className="logo-badge">beta</span>
+        <img src="/pyroscope-logo.png" alt="Pyroscope" className="logo-image" />
       </div>
 
       {/* Current Location */}
