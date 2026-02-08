@@ -29,7 +29,7 @@ function Sidebar({
     <aside className="sidebar">
       {/* Logo */}
       <div className="logo">
-        <img src="/pyroscope-logo.png" alt="Pyroscope" className="logo-image" />
+        <img src="/pyroscope-logo.svg" alt="Pyroscope" className="logo-image" />
       </div>
 
       {/* Current Location */}
